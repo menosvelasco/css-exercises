@@ -2,4 +2,7 @@ div {
   background-color: red;
   color: white;
   text-align: center;
+  /* what i missed to add */
+  font-size: 30px;
+  font-weight: bold;
 }
