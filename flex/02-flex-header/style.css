@@ -13,6 +13,8 @@ html {
   font-family: monospace;
   background: papayawhip;
   margin: 12px;
+  /* adding solution or what I left out*/
+  justify-content: space-between;
 }
 
 .logo {
@@ -36,7 +38,7 @@ html {
 
 ul {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 10px;
   padding: 0 12px;
   /* this removes the dots on the list items*/
