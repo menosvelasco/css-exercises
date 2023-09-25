@@ -11,9 +11,12 @@ body {
 
 .header {
   display: flex;
-  align-items: center;
-  margin: 8px;
-  padding: 0 16px;
+  justify-content: space-between;
+  padding: 8px;
+  /* my code */
+  /* padding: 0 16px; */
+  /* margin: 8px; */
+  /* align-items: center; */
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
@@ -34,13 +37,10 @@ body {
   font-style: italic;
   margin: 8px;
 }
-
 .container-one {
   display: flex;
-  flex: 1 0 auto;
-  /* justify-content: space-between; */
+  align-items: center;
 }
-
 .container-two {
   display: flex;
   justify-content: flex-end;
@@ -48,7 +48,9 @@ body {
   gap: 10px;
   align-items: center;
 }
+
 .notifications {
+  height: fit-content;
 }
 button {
   border: none;
@@ -56,7 +58,6 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  height: fit-content;
 }
 
 a {
@@ -67,8 +68,11 @@ a {
 
 ul {
   display: flex;
-  gap: 10px;
-  padding-left: 8px;
-  /* justify-content: center; */
   list-style-type: none;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  /* my code */
+  /* gap: 10px; */
+  /* padding-left: 8px; */
 }
