@@ -9,38 +9,41 @@ html {
 .header {
   display: flex;
   align-items: center;
-  height: 80px;
+  /* height: 80px; */
   font-family: monospace;
   background: papayawhip;
   margin: 12px;
   /* adding solution or what I left out*/
   justify-content: space-between;
+  padding: 8px;
 }
 
 .logo {
-  display: flex;
+  /* display: flex; */
   /* justify-content: center; */
-  align-items: center;
+  /* align-items: center; */
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin: auto;
+  /* margin: auto; */
 }
 
-.right-links {
+/* .right-links {
   margin-left: auto;
 }
 .left-links {
   margin-right: auto;
-}
+} */
 
 ul {
   display: flex;
   /* justify-content: space-between; */
-  gap: 10px;
-  padding: 0 12px;
+
+  gap: 8px;
+  padding: 0;
+  margin: 0;
   /* this removes the dots on the list items*/
   list-style-type: none;
 }
@@ -53,7 +56,7 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 678px) {
+/* @media (max-width: 678px) {
   body,
   html {
     height: 100%;
@@ -76,4 +79,4 @@ a {
   .left-links {
     margin-right: auto;
   }
-}
+} */
