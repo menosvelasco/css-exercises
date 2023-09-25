@@ -6,17 +6,22 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  box-sizing: border-box;
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+  padding: 0 16px;
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
 .profile-image {
   background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -27,14 +32,31 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 8px;
 }
 
+.container-one {
+  display: flex;
+  flex: 1 0 auto;
+  /* justify-content: space-between; */
+}
+
+.container-two {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 0 auto;
+  gap: 10px;
+  align-items: center;
+}
+.notifications {
+}
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  height: fit-content;
 }
 
 a {
@@ -44,5 +66,9 @@ a {
 }
 
 ul {
+  display: flex;
+  gap: 10px;
+  padding-left: 8px;
+  /* justify-content: center; */
   list-style-type: none;
 }
