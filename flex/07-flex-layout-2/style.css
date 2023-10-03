@@ -1,5 +1,6 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
 }
@@ -24,6 +25,64 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
+}
+/* my code */
+
+body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+.nav-sidebar {
+  display: flex;
+  flex: 1;
+  /* width: 300px; */
+}
+.sidebar {
+  flex-shrink: 0;
+  width: 300px;
+}
+.card-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 32px;
+}
+.card {
+  display: flex;
+  padding: 16px;
+  flex: 1 0 23%;
+  margin-top: 0 auto;
+}
+
+ul {
+  margin-left: 0 auto;
+  list-style-type: none;
+  padding: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+  font-size: 24px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
