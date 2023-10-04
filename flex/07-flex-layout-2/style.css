@@ -33,14 +33,14 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 .header {
   font-size: 32px;
   font-weight: 900;
   display: flex;
   align-items: center;
-  padding: 16px;
+  padding: 0 16px;
 }
 
 .main {
@@ -53,12 +53,15 @@ body {
   /* width: 300px; */
 }
 .sidebar {
+  /* display: flex; */
+  /* flex: 1; */
   flex-shrink: 0;
+  /* padding: 32px; */
   width: 300px;
 }
 .card-text {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   flex-wrap: wrap;
   padding: 32px;
   gap: 32px;
@@ -67,13 +70,17 @@ body {
   display: flex;
   padding: 16px;
   flex: 1 0 23%;
-  margin-top: 0 auto;
+  width: 300px;
+  /* margin-top: 0 auto; */
 }
 
 ul {
   margin-left: 0 auto;
   list-style-type: none;
   padding: 16px;
+}
+li {
+  margin-bottom: 16px;
 }
 
 a {
